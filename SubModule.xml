@@ -1,0 +1,25 @@
+<Module>
+	<Name value="Blunt Arrows And Bolts"/>
+	<Id value="BluntArrowsAndBolts"/>
+	<Version value="v1.0.0"/>
+	<SingleplayerModule value="true"/>
+	<MultiplayerModule value="false"/>
+	<Official value="false" />
+  
+	<DependedModuleMetadatas>
+		<DependedModuleMetadata id="Native" order="LoadBeforeThis" />
+    		<DependedModuleMetadata id="SandBoxCore" order="LoadBeforeThis" />
+    		<DependedModuleMetadata id="Sandbox" order="LoadBeforeThis" />
+    		<DependedModuleMetadata id="StoryMode" order="LoadBeforeThis" optional="true" />
+    		<DependedModuleMetadata id="CustomBattle" order="LoadBeforeThis" optional="true" />
+  	</DependedModuleMetadatas>
+
+	<Xmls>
+		<XmlNode>                
+			<XmlName id="Items" path="item_bluntArrowsAndBolts"/>
+		</XmlNode> 
+	</Xmls>
+	
+</Module>
+
+
